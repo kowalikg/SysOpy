@@ -1,0 +1,582 @@
+-O3
+
+Static 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++
+LIST
+++++++++++++++++++++++++++++++++++++++++++++++++++++
+Create list book:
+Real time:	0.000041
+User time:	0.000000
+System time:	0.000000
+Add 1000 contacts
+Real time:	0.000185
+User time:	0.000000
+System time:	0.000000
+Sort 1000 contacts
+Real time:	0.003557
+User time:	0.000000
+System time:	0.000000
+Delete contact - optymistic
+Real time:	0.000003
+User time:	0.000000
+System time:	0.000000
+Delete contact - pesymistic
+Real time:	0.000010
+User time:	0.000000
+System time:	0.000000
+Delete book
+Real time:	0.000033
+User time:	0.000000
+System time:	0.000000
+++++++++++++++++++++++++++++++++++++++++++++++++++++
+TREE
+++++++++++++++++++++++++++++++++++++++++++++++++++++
+Create tree book:
+Real time:	0.000002
+User time:	0.000000
+System time:	0.000000
+Add 1000 contacts
+Real time:	0.000197
+User time:	0.000000
+System time:	0.000000
+Sort 1000 contacts
+Real time:	0.000474
+User time:	0.000000
+System time:	0.000000
+Find max
+Real time:	0.000003
+User time:	0.000000
+System time:	0.000000
+Find min
+Real time:	0.000002
+User time:	0.000000
+System time:	0.000000
+Delete contact - no kids
+Real time:	0.000001
+User time:	0.000000
+System time:	0.000000
+Delete contact - with kids
+Real time:	0.000002
+User time:	0.000000
+System time:	0.000000
+Delete tree
+Real time:	0.000006
+User time:	0.000000
+System time:	0.000000
+-O3
+
+Shared
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++
+LIST
+++++++++++++++++++++++++++++++++++++++++++++++++++++
+Create list book:
+Real time:	0.000042
+User time:	0.000000
+System time:	0.000000
+Add 1000 contacts
+Real time:	0.000104
+User time:	0.000000
+System time:	0.000000
+Sort 1000 contacts
+Real time:	0.003578
+User time:	0.000000
+System time:	0.000000
+Delete contact - optymistic
+Real time:	0.000005
+User time:	0.000000
+System time:	0.000000
+Delete contact - pesymistic
+Real time:	0.000009
+User time:	0.000000
+System time:	0.000000
+Delete book
+Real time:	0.000034
+User time:	0.000000
+System time:	0.000000
+++++++++++++++++++++++++++++++++++++++++++++++++++++
+TREE
+++++++++++++++++++++++++++++++++++++++++++++++++++++
+Create tree book:
+Real time:	0.000002
+User time:	0.000000
+System time:	0.000000
+Add 1000 contacts
+Real time:	0.000201
+User time:	0.000000
+System time:	0.000000
+Sort 1000 contacts
+Real time:	0.000439
+User time:	0.000000
+System time:	0.000000
+Find max
+Real time:	0.000002
+User time:	0.000000
+System time:	0.000000
+Find min
+Real time:	0.000002
+User time:	0.000000
+System time:	0.000000
+Delete contact - no kids
+Real time:	0.000002
+User time:	0.000000
+System time:	0.000000
+Delete contact - with kids
+Real time:	0.000003
+User time:	0.000000
+System time:	0.000000
+Delete tree
+Real time:	0.000017
+User time:	0.000000
+System time:	0.000000
+-O3
+
+Dynamic
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++
+LIST
+++++++++++++++++++++++++++++++++++++++++++++++++++++
+Create list book:
+Real time:	0.000036
+User time:	0.000000
+System time:	0.000000
+Add 1000 contacts
+Real time:	0.000158
+User time:	0.000000
+System time:	0.000000
+Sort 1000 contacts
+Real time:	0.003626
+User time:	0.000000
+System time:	0.000000
+Delete contact - optymistic
+Real time:	0.000005
+User time:	0.000000
+System time:	0.000000
+Delete contact - pesymistic
+Real time:	0.000010
+User time:	0.000000
+System time:	0.000000
+Delete book
+Real time:	0.000034
+User time:	0.000000
+System time:	0.000000
+++++++++++++++++++++++++++++++++++++++++++++++++++++
+TREE
+++++++++++++++++++++++++++++++++++++++++++++++++++++
+Create tree book:
+Real time:	0.000002
+User time:	0.000000
+System time:	0.000000
+Add 1000 contacts
+Real time:	0.000199
+User time:	0.000000
+System time:	0.000000
+Sort 1000 contacts
+Real time:	0.000480
+User time:	0.000000
+System time:	0.000000
+Find max
+Real time:	0.000003
+User time:	0.000000
+System time:	0.000000
+Delete contact - no kids
+Real time:	0.000003
+User time:	0.000000
+System time:	0.000000
+Delete contact - with kids
+Real time:	0.000001
+User time:	0.000000
+System time:	0.000000
+Delete tree
+Real time:	0.000045
+User time:	0.000000
+System time:	0.000000
+-O2
+
+Static 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++
+LIST
+++++++++++++++++++++++++++++++++++++++++++++++++++++
+Create list book:
+Real time:	0.000049
+User time:	0.000000
+System time:	0.000000
+Add 1000 contacts
+Real time:	0.000185
+User time:	0.000000
+System time:	0.000000
+Sort 1000 contacts
+Real time:	0.003637
+User time:	0.000000
+System time:	0.000000
+Delete contact - optymistic
+Real time:	0.000004
+User time:	0.000000
+System time:	0.000000
+Delete contact - pesymistic
+Real time:	0.000009
+User time:	0.000000
+System time:	0.000000
+Delete book
+Real time:	0.000034
+User time:	0.000000
+System time:	0.000000
+++++++++++++++++++++++++++++++++++++++++++++++++++++
+TREE
+++++++++++++++++++++++++++++++++++++++++++++++++++++
+Create tree book:
+Real time:	0.000001
+User time:	0.000000
+System time:	0.000000
+Add 1000 contacts
+Real time:	0.000202
+User time:	0.000000
+System time:	0.000000
+Sort 1000 contacts
+Real time:	0.000575
+User time:	0.000000
+System time:	0.000000
+Find max
+Real time:	0.000009
+User time:	0.000000
+System time:	0.000000
+Find min
+Real time:	0.000002
+User time:	0.000000
+System time:	0.000000
+Delete contact - no kids
+Real time:	0.000001
+User time:	0.000000
+System time:	0.000000
+Delete contact - with kids
+Real time:	0.000002
+User time:	0.000000
+System time:	0.000000
+Delete tree
+Real time:	0.000007
+User time:	0.000000
+System time:	0.000000
+-O2
+
+Shared
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++
+LIST
+++++++++++++++++++++++++++++++++++++++++++++++++++++
+Create list book:
+Real time:	0.000041
+User time:	0.000000
+System time:	0.000000
+Add 1000 contacts
+Real time:	0.000104
+User time:	0.000000
+System time:	0.000000
+Sort 1000 contacts
+Real time:	0.003489
+User time:	0.000000
+System time:	0.000000
+Delete contact - optymistic
+Real time:	0.000005
+User time:	0.000000
+System time:	0.000000
+Delete contact - pesymistic
+Real time:	0.000010
+User time:	0.000000
+System time:	0.000000
+Delete book
+Real time:	0.000034
+User time:	0.000000
+System time:	0.000000
+++++++++++++++++++++++++++++++++++++++++++++++++++++
+TREE
+++++++++++++++++++++++++++++++++++++++++++++++++++++
+Create tree book:
+Real time:	0.000002
+User time:	0.000000
+System time:	0.000000
+Add 1000 contacts
+Real time:	0.000237
+User time:	0.000000
+System time:	0.000000
+Sort 1000 contacts
+Real time:	0.000454
+User time:	0.000000
+System time:	0.000000
+Find max
+Real time:	0.000002
+User time:	0.000000
+System time:	0.000000
+Find min
+Real time:	0.000003
+User time:	0.000000
+System time:	0.000000
+Delete contact - no kids
+Real time:	0.000001
+User time:	0.000000
+System time:	0.000000
+Delete contact - with kids
+Real time:	0.000003
+User time:	0.000000
+System time:	0.000000
+Delete tree
+Real time:	0.000006
+User time:	0.000000
+System time:	0.000000
+-O2
+
+Dynamic
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++
+LIST
+++++++++++++++++++++++++++++++++++++++++++++++++++++
+Create list book:
+Real time:	0.000013
+User time:	0.000000
+System time:	0.000000
+Add 1000 contacts
+Real time:	0.000150
+User time:	0.000000
+System time:	0.000000
+Sort 1000 contacts
+Real time:	0.003556
+User time:	0.000000
+System time:	0.000000
+Delete contact - optymistic
+Real time:	0.000004
+User time:	0.000000
+System time:	0.000000
+Delete contact - pesymistic
+Real time:	0.000009
+User time:	0.000000
+System time:	0.000000
+Delete book
+Real time:	0.000034
+User time:	0.000000
+System time:	0.000000
+++++++++++++++++++++++++++++++++++++++++++++++++++++
+TREE
+++++++++++++++++++++++++++++++++++++++++++++++++++++
+Create tree book:
+Real time:	0.000002
+User time:	0.000000
+System time:	0.000000
+Add 1000 contacts
+Real time:	0.000199
+User time:	0.000000
+System time:	0.000000
+Sort 1000 contacts
+Real time:	0.000520
+User time:	0.000000
+System time:	0.000000
+Find max
+Real time:	0.000005
+User time:	0.000000
+System time:	0.000000
+Delete contact - no kids
+Real time:	0.000003
+User time:	0.000000
+System time:	0.000000
+Delete contact - with kids
+Real time:	0.000001
+User time:	0.000000
+System time:	0.000000
+Delete tree
+Real time:	0.000045
+User time:	0.000000
+System time:	0.000000
+-O1
+
+Static 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++
+LIST
+++++++++++++++++++++++++++++++++++++++++++++++++++++
+Create list book:
+Real time:	0.000040
+User time:	0.000000
+System time:	0.000000
+Add 1000 contacts
+Real time:	0.000096
+User time:	0.000000
+System time:	0.000000
+Sort 1000 contacts
+Real time:	0.003504
+User time:	0.000000
+System time:	0.000000
+Delete contact - optymistic
+Real time:	0.000003
+User time:	0.000000
+System time:	0.000000
+Delete contact - pesymistic
+Real time:	0.000010
+User time:	0.000000
+System time:	0.000000
+Delete book
+Real time:	0.000034
+User time:	0.000000
+System time:	0.000000
+++++++++++++++++++++++++++++++++++++++++++++++++++++
+TREE
+++++++++++++++++++++++++++++++++++++++++++++++++++++
+Create tree book:
+Real time:	0.000002
+User time:	0.000000
+System time:	0.000000
+Add 1000 contacts
+Real time:	0.000194
+User time:	0.000000
+System time:	0.000000
+Sort 1000 contacts
+Real time:	0.000439
+User time:	0.000000
+System time:	0.000000
+Find max
+Real time:	0.000001
+User time:	0.000000
+System time:	0.000000
+Find min
+Real time:	0.000002
+User time:	0.000000
+System time:	0.000000
+Delete contact - no kids
+Real time:	0.000002
+User time:	0.000000
+System time:	0.000000
+Delete contact - with kids
+Real time:	0.000002
+User time:	0.000000
+System time:	0.000000
+Delete tree
+Real time:	0.000005
+User time:	0.000000
+System time:	0.000000
+-O1
+
+Shared
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++
+LIST
+++++++++++++++++++++++++++++++++++++++++++++++++++++
+Create list book:
+Real time:	0.000040
+User time:	0.000000
+System time:	0.000000
+Add 1000 contacts
+Real time:	0.000107
+User time:	0.000000
+System time:	0.000000
+Sort 1000 contacts
+Real time:	0.003563
+User time:	0.000000
+System time:	0.000000
+Delete contact - optymistic
+Real time:	0.000004
+User time:	0.000000
+System time:	0.000000
+Delete contact - pesymistic
+Real time:	0.000009
+User time:	0.000000
+System time:	0.000000
+Delete book
+Real time:	0.000034
+User time:	0.000000
+System time:	0.000000
+++++++++++++++++++++++++++++++++++++++++++++++++++++
+TREE
+++++++++++++++++++++++++++++++++++++++++++++++++++++
+Create tree book:
+Real time:	0.000002
+User time:	0.000000
+System time:	0.000000
+Add 1000 contacts
+Real time:	0.000200
+User time:	0.000000
+System time:	0.000000
+Sort 1000 contacts
+Real time:	0.000475
+User time:	0.000000
+System time:	0.000000
+Find max
+Real time:	0.000003
+User time:	0.000000
+System time:	0.000000
+Find min
+Real time:	0.000002
+User time:	0.000000
+System time:	0.000000
+Delete contact - no kids
+Real time:	0.000002
+User time:	0.000000
+System time:	0.000000
+Delete contact - with kids
+Real time:	0.000002
+User time:	0.000000
+System time:	0.000000
+Delete tree
+Real time:	0.000007
+User time:	0.000000
+System time:	0.000000
+-O1
+
+Dynamic
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++
+LIST
+++++++++++++++++++++++++++++++++++++++++++++++++++++
+Create list book:
+Real time:	0.000013
+User time:	0.000000
+System time:	0.000000
+Add 1000 contacts
+Real time:	0.000102
+User time:	0.000000
+System time:	0.000000
+Sort 1000 contacts
+Real time:	0.003584
+User time:	0.000000
+System time:	0.000000
+Delete contact - optymistic
+Real time:	0.000005
+User time:	0.000000
+System time:	0.000000
+Delete contact - pesymistic
+Real time:	0.000010
+User time:	0.000000
+System time:	0.000000
+Delete book
+Real time:	0.000034
+User time:	0.000000
+System time:	0.000000
+++++++++++++++++++++++++++++++++++++++++++++++++++++
+TREE
+++++++++++++++++++++++++++++++++++++++++++++++++++++
+Create tree book:
+Real time:	0.000002
+User time:	0.000000
+System time:	0.000000
+Add 1000 contacts
+Real time:	0.000201
+User time:	0.000000
+System time:	0.000000
+Sort 1000 contacts
+Real time:	0.000491
+User time:	0.000000
+System time:	0.000000
+Find max
+Real time:	0.000003
+User time:	0.000000
+System time:	0.000000
+Delete contact - no kids
+Real time:	0.000003
+User time:	0.000000
+System time:	0.000000
+Delete contact - with kids
+Real time:	0.000001
+User time:	0.000000
+System time:	0.000000
+Delete tree
+Real time:	0.000044
+User time:	0.000000
+System time:	0.000000

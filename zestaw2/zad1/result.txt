@@ -1,0 +1,244 @@
+Wnioski:
+1. Systemowe biblioteki dzialaja szybsze niz biblioteczne.
+2. Generowanie rekordow jest wolniejsze niz ich permutowanie, ale szybsze niz sortowanie.
+3. Sortowanie rosnie srednio kwadratowo w zaleznosci od liczby rekordow ale nie zalezy od rozmiaru rekordu.
+Generate 32 records (4 bytes)
+Real time:	0.000323
+User time:	0.000000
+System time:	0.000000
+Permutate 32 records (4 bytes) with syslibrary
+Real time:	0.000151
+User time:	0.000000
+System time:	0.000000
+Sorting 32 records (4 bytes) with syslibrary
+Real time:	0.001063
+User time:	0.000000
+System time:	0.000000
+Permutate 32 records (4 bytes) with liblibrary
+Real time:	0.000177
+User time:	0.000000
+System time:	0.000000
+Sorting 32 records (4 bytes) with liblibrary
+Real time:	0.001004
+User time:	0.000000
+System time:	0.000000
+Generate 32 records (512 bytes)
+Real time:	0.027380
+User time:	0.020000
+System time:	0.000000
+Permutate 32 records (512 bytes) with syslibrary
+Real time:	0.000158
+User time:	0.000000
+System time:	0.000000
+Sorting 32 records (512 bytes) with syslibrary
+Real time:	0.000979
+User time:	0.000000
+System time:	0.000000
+Permutate 32 records (512 bytes) with liblibrary
+Real time:	0.000217
+User time:	0.000000
+System time:	0.000000
+Sorting 32 records (512 bytes) with liblibrary
+Real time:	0.001274
+User time:	0.000000
+System time:	0.000000
+Generate 32 records (4096 bytes)
+Real time:	0.213105
+User time:	0.200000
+System time:	0.000000
+Permutate 32 records (4096 bytes) with syslibrary
+Real time:	0.000238
+User time:	0.000000
+System time:	0.000000
+Sorting 32 records (4096 bytes) with syslibrary
+Real time:	0.002112
+User time:	0.000000
+System time:	0.000000
+Permutate 32 records (4096 bytes) with liblibrary
+Real time:	0.000400
+User time:	0.000000
+System time:	0.000000
+Sorting 32 records (4096 bytes) with liblibrary
+Real time:	0.003595
+User time:	0.000000
+System time:	0.000000
+Generate 32 records (8192 bytes)
+Real time:	0.412426
+User time:	0.390000
+System time:	0.010000
+Permutate 32 records (8192 bytes) with syslibrary
+Real time:	0.000471
+User time:	0.000000
+System time:	0.000000
+Sorting 32 records (8192 bytes) with syslibrary
+Real time:	0.003068
+User time:	0.000000
+System time:	0.000000
+Permutate 32 records (8192 bytes) with liblibrary
+Real time:	0.000515
+User time:	0.000000
+System time:	0.000000
+Sorting 32 records (8192 bytes) with liblibrary
+Real time:	0.004776
+User time:	0.000000
+System time:	0.000000
+Generate 512 records (4 bytes)
+Real time:	0.004222
+User time:	0.000000
+System time:	0.000000
+Permutate 512 records (4 bytes) with syslibrary
+Real time:	0.001432
+User time:	0.000000
+System time:	0.000000
+Sorting 512 records (4 bytes) with syslibrary
+Real time:	0.328102
+User time:	0.300000
+System time:	0.020000
+Permutate 512 records (4 bytes) with liblibrary
+Real time:	0.001813
+User time:	0.000000
+System time:	0.000000
+Sorting 512 records (4 bytes) with liblibrary
+Real time:	0.263685
+User time:	0.190000
+System time:	0.070000
+Generate 512 records (512 bytes)
+Real time:	0.403863
+User time:	0.390000
+System time:	0.010000
+Permutate 512 records (512 bytes) with syslibrary
+Real time:	0.001759
+User time:	0.000000
+System time:	0.000000
+Sorting 512 records (512 bytes) with syslibrary
+Real time:	0.393631
+User time:	0.350000
+System time:	0.030000
+Permutate 512 records (512 bytes) with liblibrary
+Real time:	0.002925
+User time:	0.000000
+System time:	0.000000
+Sorting 512 records (512 bytes) with liblibrary
+Real time:	0.396061
+User time:	0.330000
+System time:	0.060000
+Generate 512 records (4096 bytes)
+Real time:	3.535802
+User time:	3.420000
+System time:	0.110000
+Permutate 512 records (4096 bytes) with syslibrary
+Real time:	0.003208
+User time:	0.000000
+System time:	0.000000
+Sorting 512 records (4096 bytes) with syslibrary
+Real time:	0.637028
+User time:	0.600000
+System time:	0.020000
+Permutate 512 records (4096 bytes) with liblibrary
+Real time:	0.005954
+User time:	0.000000
+System time:	0.000000
+Sorting 512 records (4096 bytes) with liblibrary
+Real time:	0.903285
+User time:	0.780000
+System time:	0.110000
+Generate 512 records (8192 bytes)
+Real time:	6.419079
+User time:	6.160000
+System time:	0.250000
+Permutate 512 records (8192 bytes) with syslibrary
+Real time:	0.005894
+User time:	0.000000
+System time:	0.000000
+Sorting 512 records (8192 bytes) with syslibrary
+Real time:	1.006104
+User time:	0.960000
+System time:	0.030000
+Permutate 512 records (8192 bytes) with liblibrary
+Real time:	0.008678
+User time:	0.000000
+System time:	0.000000
+Sorting 512 records (8192 bytes) with liblibrary
+Real time:	1.275071
+User time:	1.100000
+System time:	0.170000
+Generate 1024 records (4 bytes)
+Real time:	0.008235
+User time:	0.000000
+System time:	0.000000
+Permutate 1024 records (4 bytes) with syslibrary
+Real time:	0.003554
+User time:	0.000000
+System time:	0.000000
+Sorting 1024 records (4 bytes) with syslibrary
+Real time:	1.388115
+User time:	1.240000
+System time:	0.140000
+Permutate 1024 records (4 bytes) with liblibrary
+Real time:	0.003774
+User time:	0.000000
+System time:	0.000000
+Sorting 1024 records (4 bytes) with liblibrary
+Real time:	1.010134
+User time:	0.790000
+System time:	0.210000
+Generate 1024 records (512 bytes)
+Real time:	0.816636
+User time:	0.780000
+System time:	0.020000
+Permutate 1024 records (512 bytes) with syslibrary
+Real time:	0.003375
+User time:	0.000000
+System time:	0.000000
+Sorting 1024 records (512 bytes) with syslibrary
+Real time:	1.537252
+User time:	1.410000
+System time:	0.120000
+Permutate 1024 records (512 bytes) with liblibrary
+Real time:	0.005986
+User time:	0.000000
+System time:	0.000000
+Sorting 1024 records (512 bytes) with liblibrary
+Real time:	1.407452
+User time:	1.080000
+System time:	0.320000
+Generate 1024 records (4096 bytes)
+Real time:	6.486228
+User time:	6.210000
+System time:	0.260000
+Permutate 1024 records (4096 bytes) with syslibrary
+Real time:	0.007656
+User time:	0.000000
+System time:	0.000000
+Sorting 1024 records (4096 bytes) with syslibrary
+Real time:	3.356614
+User time:	3.220000
+System time:	0.130000
+Permutate 1024 records (4096 bytes) with liblibrary
+Real time:	0.012376
+User time:	0.010000
+System time:	0.000000
+Sorting 1024 records (4096 bytes) with liblibrary
+Real time:	3.759818
+User time:	3.090000
+System time:	0.660000
+Generate 1024 records (8192 bytes)
+Real time:	13.420313
+User time:	12.910000
+System time:	0.500000
+Permutate 1024 records (8192 bytes) with syslibrary
+Real time:	0.010749
+User time:	0.000000
+System time:	0.000000
+Sorting 1024 records (8192 bytes) with syslibrary
+Real time:	4.878309
+User time:	4.750000
+System time:	0.120000
+Permutate 1024 records (8192 bytes) with liblibrary
+Real time:	0.017375
+User time:	0.010000
+System time:	0.000000
+Sorting 1024 records (8192 bytes) with liblibrary
+Real time:	6.003491
+User time:	5.100000
+System time:	0.890000

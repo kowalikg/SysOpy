@@ -1,0 +1,45 @@
+
+Linux ubuntu
+4.10.0-19-generic
+x86_64
+Intel i5-4200U 1.60Ghz - 2.30Ghz
+
+
+Numery sygnalow:
+SIGUSR1: 10
+SIGTERM: 15
+SIGKILL: 9
+SIGSTOP: 19
+
+2a.
+
+1. Nie ignorujemy zadnego sygnalu:
+nic sie nie przechwytuje, program konczy sie kodem wyjscia, 19 -> zawiesza sie
+
+2. Glowny watek ignoruje sygnal:
+9 -> kod wyjscia 9
+10, 15 -> kod wyjscia 0
+19 -> zawiesza sie
+nic sie nie przechwytuje
+
+3. Glowny watek i wszystkie poboczne maja handlera.
+9 -> koncza sie kodem wyjscia sygnalu, nie przechwytuje sie
+10, 15 -> przechwycony w glownym watku
+19 -> program zawiesza sie
+
+4. Sygnal do watku z ignorowanym sygnalem.
+19 -> program zawiesza sie
+9 -> konczy sie kodem 0
+10, 15 -> nie przechywcony
+
+5. Sygnal do watku z handlerem.
+9 -> konczy sie kodem 9, nie przechwycony
+10, 15 -> czesto przechwycony
+19 -> zawiesza
+
+
+2b.
+Co prawda wyswietlaja sie komunikaty z watkow gdzie dzielenie przez 0 nie zachodzi
+(zaobserwowane po wykomentowaniu komunikatu w handlerze), ale przez to ze w zasadzie wyswietla sie
+nieskonczenie wiele komunikatow z handlera (czyli jest przechwtywany nieskonczenie wiele razy), sa
+one nie do wychwycenia wzrokowego.
